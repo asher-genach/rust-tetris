@@ -1,0 +1,16 @@
+[package]
+name = "tetris"
+version = "0.1.0"
+authors = ["asher"]
+
+[dependencies]
+piston_window = "0.81.0"
+rand = "0.6.1"
+find_folder = "0.3.0"
+serde = "*"
+serde_json = "*"
+serde_derive = "*"
+
+[dependencies.gfx_text]
+version = "*"
+default-features = false
